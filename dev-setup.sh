@@ -221,11 +221,6 @@ build_frontend() {
   
   # Ensure static directory exists
   mkdir -p "$BACKEND_DIR/static"
-  
-  # Copy built files to static folder
-  echo "Copying built files to backend static directory..."
-  cp -r "$FRONTEND_DIR/dist/"* "$BACKEND_DIR/static/"
-  
   success "Frontend built and copied to backend static directory!"
 }
 
