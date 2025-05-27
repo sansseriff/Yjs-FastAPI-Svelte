@@ -1,0 +1,11 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+    "pycrdt>=0.10.0",
+    "pycrdt-websocket>=0.15.5",
+]
